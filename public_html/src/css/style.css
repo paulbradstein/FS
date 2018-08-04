@@ -1,1 +1,68 @@
-# Empty CSS file for your own CSS
+/* 
+    Created on : Jul 11, 2018, 7:04:03 PM
+    Author     : PS038353
+*/
+body {
+    background-color: #fff;  
+    font-family: 'Open Sans', sans-serif;
+}
+header, footer {
+    background-color: #fff;
+    text-align: center;    
+}
+.navbar-brand {
+    border: none;
+    background: none;
+    padding: 0px;
+}
+.dropdown-menu {
+    font-size: 12px;
+}
+.navbar-collapse {
+    font-size: 12px;
+}
+@media (min-width: 720px) {
+    .navbar {
+        padding-top: 20px; 
+        padding-right: 20px; 
+        padding-bottom: 20px; 
+        padding-left: 20px; 
+    }
+    .navbar-header {
+        padding-right: 20px;
+    }
+    .navbar-brand {
+        float: right;
+        height: 20px;
+        padding: 5px 5px;
+        line-height: 20px;
+    }
+    .navbar-collapse {
+        padding-top: 20px;
+        padding-left: 100px;
+        font-size: 15px;
+    }
+}
+@media (min-width: 992px) {
+    .navbar {
+        font-size: 20px;
+        padding-top: 20px; 
+        padding-right: 20px; 
+        padding-bottom: 20px; 
+        padding-left: 20px; 
+    }
+    .navbar-header {
+        padding-right: 20px;
+    }
+    .navbar-brand {
+        float: right;
+        height: 20px;
+        padding: 5px 5px;
+        line-height: 20px;
+    }
+    .navbar-collapse {
+        padding-top: 20px;
+        padding-left: 100px;
+        font-size: 20px;
+    }
+}

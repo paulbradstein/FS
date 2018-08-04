@@ -1,156 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Studio D3. End to End Artistic Design</title>
+        <title>The Faux Studio Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Studio D3 Home Page">
+        <meta name="description" content="the Faux Studio Home Page">
         <meta name="author" content="Paul Stein">
-        <!--<link href="css/bootstrap.min_1.css" rel="stylesheet">
-        see colors.txt - seems I manipulated the style color definitions in bootstrap css rather than creating my own-->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!--see colors.txt - seems I manipulated the style color definitions in bootstrap css rather than creating my own-->
+        <link href="css/bootstrap.min.xs.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"></a>
+                    <img src="images_index/faux_studio_logo_sm.jpg" alt="Brand"/>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <!--                        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li> -->
+                        <li><a href="about.html">About</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="int_design.html">Interior Design</a></li>
+                                <li><a href="event_design.html">Event Design</a></li>
+                                <li><a href="#">Staging</a></li>
+                                <li><a href="#">Wall Finishes</a></li>
+                                <li><a href="#">Canvas Paintings</a></li>
+                                <li><a href="#">Floral Design</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Follow</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <!--               <form class="navbar-form navbar-left">
+                                           <div class="form-group">
+                                               <input type="text" class="form-control" placeholder="Search">
+                                           </div>
+                                           <button type="submit" class="btn btn-default">Submit</button>
+                                       </form>  
+                                       <ul class="nav navbar-nav navbar-right">
+                                           <li><a href="#">Link</a></li>
+                                       </ul> -->
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="text-center text-primary">
-                        Studio D3 <br/>
-                        End to End Artistic Design
-                    </h3>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-primary btn-lg">Home</button>
-                        </div>
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-primary btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-                                Design <span class="caret"></span></button>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Interior Design</a></li>
-                                <li><a href="#">Event Design</a></li>
-                                <li><a href="#">Floral Design</a></li>
-                            </ul>
-                        </div>
-                        <button type="button" class="btn btn-primary btn-lg">Art</button>
-                        <button type="button" class="btn btn-primary btn-lg">Furniture</button>
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-primary btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-                                Faux <span class="caret"></span></button>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Lusterstone</a></li>
-                                <li><a href="#">Venetian Plaster</a></li>
-                                <li><a href="#">Olde World Stone</a></li>
-                                <li><a href="#">Antiquing</a></li>
-                                <li><a href="#">Color Wash</a></li>
-                                <li><a href="#">Modellos</a></li>
-                                <li><a href="#">Woodgraining</a></li>
-                            </ul>
-                        </div>                        
-                        <button type="button" class="btn btn-primary btn-lg">Contact</button>
+                    <div class="carousel slide" id="carousel-930993" data-ride="carousel" data-interval="3000" data-pause="hover">
+                        <ol class="carousel-indicators">
+                            <li class="active" data-slide-to="0" data-target="#carousel-930993"></li>
+                            <li data-slide-to="1" data-target="#carousel-930993"></li>
+                            <li data-slide-to="2" data-target="#carousel-930993"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img alt="Carousel Bootstrap First" src="images_fl/a901_1600_tuscany_color_wash_room2_059.jpg">
+                            </div>
+                            <div class="item">
+                                <img alt="Carousel Bootstrap Second" src="images_fl/a902_1600_antiquing_room_5169.jpg">
+                            </div>
+                            <div class="item">
+                                <img alt="Carousel Bootstrap Third" src="images_fl/b002_1600_room2_6025.jpg">
+                            </div>
+                        </div> 
+                        <!--  This gives the forward / backwards buttons and dots showing which photo you are on -->
+                        <a class="left carousel-control" href="#carousel-930993" data-slide="prev"> 
+                            <span class="glyphicon glyphicon-chevron-left"></span></a> 
+                        <a class="right carousel-control" href="#carousel-930993" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span></a>
                     </div>
                 </div>
             </div>
-
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-12">
-                        <h4 class="text-center text-primary">
-                            <a href="#">Home</a>&nbsp&nbsp&nbsp&nbsp&nbsp
-                            <a href="#">Design</a>&nbsp&nbsp&nbsp&nbsp&nbsp
-                            <a href="#">Art</a>&nbsp&nbsp&nbsp&nbsp&nbsp
-                            <a href="#">Furniture</a>&nbsp&nbsp&nbsp&nbsp&nbsp
-                            <a href="#">Faux</a>&nbsp&nbsp&nbsp&nbsp&nbsp
-                            <a href="#">Contact</a>&nbsp&nbsp&nbsp&nbsp&nbsp
-                        </h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="carousel slide" id="carousel-930993" data-ride="carousel" data-interval="3000" data-pause="hover">
-                            <ol class="carousel-indicators">
-                                <li class="active" data-slide-to="0" data-target="#carousel-930993"></li>
-                                <li data-slide-to="1" data-target="#carousel-930993"></li>
-                                <li data-slide-to="2" data-target="#carousel-930993"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <img alt="Carousel Bootstrap First" src="images_fl/a901_1600_tuscany_color_wash_room2_059.jpg">
-                                </div>
-                                <div class="item">
-                                    <img alt="Carousel Bootstrap Second" src="images_fl/a902_1600_antiquing_room_5169.jpg">
-                                </div>
-                                <div class="item">
-                                    <img alt="Carousel Bootstrap Third" src="images_fl/b002_1600_room2_6025.jpg">
-                                </div>
-                            </div> 
-                            <!--  This gives the forward / backwards buttons and dots showing which photo you are on 
-                            a class="left carousel-control" href="#carousel-930993" data-slide="prev"> 
-                                <span class="glyphicon glyphicon-chevron-left"></span></a> 
-                            <a class="right carousel-control" href="#carousel-930993" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right"></span></a> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="thumbnail">
-                                <img alt="1" src="images_th/b199_th_home_design.jpg">
-                                <div class="caption">
-                                    <h3>
-                                        Thumbnail label
-                                    </h3>
-                                    <p>
-                                        <a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="thumbnail">
-                                <img alt="2" src="images_th/b106_th_spring_house4.jpg">
-                                <div class="caption">
-                                    <h3>
-                                        Thumbnail label
-                                    </h3>
-                                    <p>
-                                        <a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="thumbnail">
-                                <img alt="3" src="images_th/b003_th_mural_wall1.jpg">
-                                <div class="caption">
-                                    <h3>
-                                        Thumbnail label
-                                    </h3>
-                                    <p>
-                                        <a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
-                                    </p>
-                                </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <img alt="1" src="images_th/b199_th_home_design.jpg">
+                            <div class="caption">
+                                <h3>
+                                    Thumbnail label
+                                </h3>
+                                <p>
+                                    <a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
+                                </p>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12" align="center">
-                        <h4 class="text-center text-primary">
-                            <address>
-                                <strong>Studio D3</strong>&nbsp;   561 E Garfield Ave   Souderton, PA 18964   <abbr title="Phone">P:</abbr>&nbsp; (215) 896-7347
-                            </address>
-                        </h4>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <img alt="2" src="images_th/b106_th_spring_house4.jpg">
+                            <div class="caption">
+                                <h3>
+                                    Thumbnail label
+                                </h3>
+                                <p>
+                                    <a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <img alt="3" src="images_th/b003_th_mural_wall1.jpg">
+                            <div class="caption">
+                                <h3>
+                                    Thumbnail label
+                                </h3>
+                                <p>
+                                    <a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-            <script src="js/jquery.min.js"></script>
-            <script src="js/bootstrap.min.js"></script>
-            <script src="js/scripts.js"></script>
+        <script src="js/jquery.3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.xs.js"></script>
+        <script src="js/scripts.js"></script>
     </body>
 </html>
