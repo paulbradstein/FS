@@ -1,14 +1,17 @@
 /* 
-    Created on : Jul 11, 2018, 7:04:03 PM
-    Author     : PS038353
+    Author     : Paul Stein
 */
 body {
-    background-color: #fff;  
+    background-color: #ffffff;  
     font-family: 'Open Sans', sans-serif;
 }
 header, footer {
-    background-color: #fff;
+    background-color: #ffffff;
     text-align: center;    
+}
+.navbar {
+    border: none;
+    background-color: #ffffff;
 }
 .navbar-brand {
     border: none;
@@ -21,12 +24,23 @@ header, footer {
 .navbar-collapse {
     font-size: 12px;
 }
+/*navbar-nav changes to center navbar menu items*/
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: right;
+}
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
 @media (min-width: 720px) {
     .navbar {
-        padding-top: 20px; 
-        padding-right: 20px; 
-        padding-bottom: 20px; 
-        padding-left: 20px; 
+        padding-top: 5px; 
+        padding-right: 10px; 
+        padding-bottom: 5px; 
+        padding-left: 10px; 
     }
     .navbar-header {
         padding-right: 20px;
@@ -46,13 +60,13 @@ header, footer {
 @media (min-width: 992px) {
     .navbar {
         font-size: 20px;
-        padding-top: 20px; 
-        padding-right: 20px; 
-        padding-bottom: 20px; 
-        padding-left: 20px; 
+        padding-top: 0px; 
+        padding-right: 0px; 
+        padding-bottom: 5px; 
+        padding-left: 0px; 
     }
     .navbar-header {
-        padding-right: 20px;
+        padding-right: 0px;
     }
     .navbar-brand {
         float: right;
@@ -61,8 +75,30 @@ header, footer {
         line-height: 20px;
     }
     .navbar-collapse {
-        padding-top: 20px;
-        padding-left: 100px;
+        padding-top: 5px;
+        padding-left: 10px;
         font-size: 20px;
     }
+    .dropdown-menu {
+        font-size: 15px;
+    }
+}
+.thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    height: fit-content;
+    padding: 4px;
+    //  line-height: 1.42857143;
+    line-height: 1;
+    background-color: #fff;
+    //  border: 1px solid #ddd;
+    border: none;
+    //  border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+.thumbnail .caption {
+    padding: 9px;
+    color: #333;
 }

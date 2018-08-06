@@ -10,7 +10,7 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -26,7 +26,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <!--                        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li> -->
+                        <!--<li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li> -->
                         <li><a href="about.html">About</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
@@ -42,20 +42,14 @@
                         <li><a href="#">Portfolio</a></li>
                         <li><a href="#">Follow</a></li>
                         <li><a href="#">Contact</a></li>
+                        <!--                    </ul>
+                                            <ul class="nav navbar-nav navbar-right"> -->
+                        <!--                        <li><img alt="Deb Stein" src="images_index/DebStein.jpg"></li> -->
                     </ul>
-                    <!--               <form class="navbar-form navbar-left">
-                                           <div class="form-group">
-                                               <input type="text" class="form-control" placeholder="Search">
-                                           </div>
-                                           <button type="submit" class="btn btn-default">Submit</button>
-                                       </form>  
-                                       <ul class="nav navbar-nav navbar-right">
-                                           <li><a href="#">Link</a></li>
-                                       </ul> -->
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
-        </nav>
-        <div class="container">
+        </nav><!--navbar-->
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
                     <div class="carousel slide" id="carousel-930993" data-ride="carousel" data-interval="3000" data-pause="hover">
@@ -80,55 +74,62 @@
                             <span class="glyphicon glyphicon-chevron-left"></span></a> 
                         <a class="right carousel-control" href="#carousel-930993" data-slide="next">
                             <span class="glyphicon glyphicon-chevron-right"></span></a>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img alt="1" src="images_th/b199_th_home_design.jpg">
-                            <div class="caption">
-                                <h3>
-                                    Thumbnail label
-                                </h3>
-                                <p>
-                                    <a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img alt="2" src="images_th/b106_th_spring_house4.jpg">
-                            <div class="caption">
-                                <h3>
-                                    Thumbnail label
-                                </h3>
-                                <p>
-                                    <a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="thumbnail">
-                            <img alt="3" src="images_th/b003_th_mural_wall1.jpg">
-                            <div class="caption">
-                                <h3>
-                                    Thumbnail label
-                                </h3>
-                                <p>
-                                    <a class="btn btn-primary" href="#">Action</a> <a class="btn" href="#">Action</a>
-                                </p>
-                            </div>
+                    </div><!--carousel slide-->
+                </div><!--col-->
+            </div><!--row-->
+        </div><!--end container-fluid-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <img alt="1" src="images_sm/b199_sm_home_design.jpg">
+                        <div class="caption">
+                            <p>line of text. This is a long line of text that is going to wrap and we'll see how bootstrap and the browser wrap it or will we?? I don't know.</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
+                <!-- Add clearfix for only the required viewport 
+                <div class="clearfix visible-xs"></div>  -->
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <img alt="2" src="images_sm/b120_sm_lusterstone.jpg">
+                        <div class="caption">
+                            <p>line of text</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add clearfix for only the required viewport -->
+                <div class="clearfix visible-sm"></div>
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <img alt="3" src="images_sm/b006_sm_ceiling_modello.jpg">
+                        <div class="caption">
+                            <p>
+                                Thumbnail label
+                            </p>
+                            <p>line of text</p>
+                            <p>line of text</p>
+                            <p>line of text</p>
+                            <p>line of text</p>
+                            <p>line of text</p>
+                            <p>line of text</p>
+                            <p>line of text</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add clearfix for only the required viewport -->
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="thumbnail">
+                        <img alt="1" src="images_sm/b199_sm_home_design.jpg">
+                        <div class="caption">
+                            <p>line of text. This is a long line of text that is going to wrap and we'll see how bootstrap and the browser wrap it or will we?? I don't know.</p>
+                        </div>
+                    </div>
+                </div>
+            </div><!--row-->
+        </div><!--container-fluid)-->
         <script src="js/jquery.3.3.1.min.js"></script>
         <script src="js/bootstrap.min.xs.js"></script>
-        <script src="js/scripts.js"></script>
+<!--        <script src="js/scripts.js"></script> -->
     </body>
 </html>
