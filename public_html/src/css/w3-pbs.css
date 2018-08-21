@@ -7,4 +7,25 @@ and open the template in the editor.
     Created on : Aug 5, 2018, 7:45:31 PM
     Author     : PS038353
 */
-.mySlides {display:none;}
+
+a[href]{
+    text-decoration: none;
+}
+body{
+    font-family: 'Neucha', cursive;
+    font-size: x-large;
+}
+.mySlides {display:none;padding:0px 10px}
+
+.w3-content{
+    //  max-width:980px;
+    max-width:4000px;
+    margin:auto;
+}
+.w3-white,.w3-hover-white:hover{color:#000!important;background-color:#fff!important;opacity:1;}
+//.w3-bar .w3-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+.w3-bar .w3-bar-item{padding:0px 0px;float:left;width:auto;border:none;display:block;outline:0}
+//.w3-bar-block .w3-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+.w3-bar-block .w3-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
+
+

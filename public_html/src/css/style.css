@@ -1,6 +1,7 @@
 /* 
     Author     : Paul Stein
 */
+/*
 body {
     background-color: #ffffff;  
     font-family: 'Open Sans', sans-serif;
@@ -25,6 +26,7 @@ header, footer {
     font-size: 12px;
 }
 /*navbar-nav changes to center navbar menu items*/
+/*
 .navbar-nav {
     float:none;
     margin:0 auto;
@@ -82,7 +84,7 @@ header, footer {
     .dropdown-menu {
         font-size: 15px;
     }
-}
+}*/
 .thumbnail {
     display: inline-block;
     max-width: 100%;
