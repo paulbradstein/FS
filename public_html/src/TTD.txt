@@ -1,0 +1,20 @@
+Add nanoGallery images (end of pluralsight bootstrap course)
+Try to get text on carousel centered
+Try to get parallax scrolling w/ carousel. Would need to use background images for carousel. If using stellar.js, it seems to require jquery 1.9.x or 2.x
+To get navbar animation - need to add classie and cbpAnimatedHeader JS files, cbp class in css, cbp-af-header to navbar div. 
+    something is not working. can't figure it out! 
+get her photos organized w/ google.
+
+get her posting stuff to facebook all the time
+allow people to sign up for special deals
+tips and tricks section of website with videos
+trends - which faux finishes are still in vogue
+if facebook has good functionality, create links from her site to her FB page. That may be able to tell you who visited the site.
+you may want to look at facebook advertising
+look into amazon web hosting - java, mySql, email
+find font libraries to add to site, maybe w/ graphics as well
+give $100 discount if they are willing to blog about your work
+
+download GIMP onto her Mac to edit the logo file
+
+Bootstrap v4 not compatible with IE 11. W3 and Bootstrap v3 are. caniuse.com provides all details on what CSS3 classes are supported on which browsers
