@@ -1,4 +1,6 @@
-Add nanoGallery images (end of pluralsight bootstrap course)
+Reduce height of carousel for full width
+Organize images
+Is color consulting a service??
 Try to get text on carousel centered
 Try to get parallax scrolling w/ carousel. Would need to use background images for carousel. If using stellar.js, it seems to require jquery 1.9.x or 2.x
 To get navbar animation - need to add classie and cbpAnimatedHeader JS files, cbp class in css, cbp-af-header to navbar div. 

@@ -15,17 +15,21 @@ header, footer {
 .text-content {
     text-align: center;
 }
-/*carousel-caption changes below will center an image on the carousel
+/*carousel-caption changes below will center an image on the carousel*/
 .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    /*
     position: absolute;
     padding: 20px;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);*/
 }
-*/
+
 .navbar {
     border: none;
     background-color: #ffffff;
@@ -65,6 +69,12 @@ header, footer {
         display: inline-block;
         float:none;
     }
+    //keeps caption from popping up after animation
+    .carousel-caption {
+    top: 50%;
+    transform: translateY(0%);
+    bottom: initial;
+    }
     /*not sure why this is here
     .navbar {
         padding-top: 5px; 
@@ -101,6 +111,12 @@ header, footer {
     .navbar-nav > li {
         display: inline-block;
         float:none;
+    }
+    //keeps caption from popping up after animation
+    .carousel-caption {
+    top: 50%;
+    transform: translateY(0%);
+    bottom: initial;
     }
     /*not sure why this is here
     .navbar {
@@ -149,7 +165,17 @@ header, footer {
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
-.thumbnail .caption {
+/*.thumbnail .caption {
     padding: 9px;
     color: #333;
+}*/
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
 }

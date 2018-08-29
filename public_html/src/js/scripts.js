@@ -31,10 +31,54 @@
 $(function () {
     //used earlier in bootstrap course. not sure what for
     /*$(window).on("load resize", function () {
-        $(".fill-screen").css("height", window.innerHeight);
-    });*/
+     $(".fill-screen").css("height", window.innerHeight);
+     });*/
     //parallax scrolling with stellar.js. not working unless I change carousel to background images
     //$(window).stellar();
     //initialize WOW for element animation
     new WOW().init();
 });
+//initialize nanogallery. NOTE some HoverEffects will cause image to show over your top menu. seems to be the ones that scale size
+$(document).ready(function () {
+    $("#nanoGallery3").nanoGallery({
+        thumbnailHoverEffect: 'labelAppear,labelOpacity50',
+        //thumbnailHoverEffect: 'labelOpacity50,labelAppear75',
+        thumbnailLabel: {
+            position: 'overImageOnMiddle',
+            display: true,
+            displayDescription: true,
+            titleMaxLength: 20,
+            hideIcons: true,
+            align: 'center',
+            itemsCount: 'description'
+        }
+    }
+    );
+
+});
+/*$(document).ready(function () {
+ jQuery("#nanoGallery").nanoGallery({
+ kind: 'picasa',
+ userID: 'cbrisbois@gmail.com',
+ 
+ // uncomment line to display one specefic album:
+ //album: '5852572882905112961',
+ 
+ thumbnailHoverEffect:'borderLighter,labelAppear75',
+ thumbnailLabel: {
+ position: 'overImageOnMiddle',
+ display: true,
+ displayDescription: true,
+ titleMaxLength: 20,
+ hideIcons: true,
+ align: 'center',
+ itemsCount: 'description'            
+ },
+ i18n: { 
+ thumbnailLabelItemsCountPart1: '',
+ thumbnailImageDescription: 'click to open'
+ }
+ });
+ 
+ });
+ */
