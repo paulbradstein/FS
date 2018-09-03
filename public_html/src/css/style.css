@@ -4,47 +4,53 @@
 
 body {
     background-color: #ffffff;  
-    //    font-family: 'Archivo Narrow', sans-serif;
     font-family: sans-serif;
-    padding-top: 110px;
 }
 header, footer {
     background-color: #ffffff;
     //    text-align: center;    
 }
+.fs-content-index{
+    padding-top: 110px;
+}
+.fs-content{
+    padding-top: 90px;
+}
 .text-content {
     text-align: center;
 }
-/*carousel-caption changes below will center an image on the carousel*/
+.fs-thumbs {
+    height: 195px;
+}
+/*carousel-caption changes below will center an image on the carousel
 .carousel-caption {
     top: 50%;
     transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
     bottom: initial;
-    /*
-    position: absolute;
-    padding: 20px;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);*/
-}
+}*/
 
 .navbar {
     border: none;
     background-color: #ffffff;
+    /*transition lines are for animated header which I'm not using right now.
     -webkit-transition: all 0.5s;
-    transition: all 0.5s;
+    transition: all 0.5s; */
     opacity: 0.9;
 }
-//to shrink header on scroll and change opacity. currently doesn't shrink as padding already 0px. also doesn't work don't know why
+/*this gets the navbar header to same height as the logo image*/
+.navbar-header {
+    height: 109px;
+}
+/*to shrink header on scroll and change opacity. currently doesn't shrink as padding already 0px. 
+requires older version of jquery (1.9.1 works)
 .cbp-af-header-shrink {
     padding: 0px;
     opacity: 0.9;
-}
+}*/
+
 .navbar-brand {
     border: none;
-    //    background: none;
     padding: 0px;
 }
 //Sets font size for Services Dropdown menu when <720px
@@ -55,7 +61,19 @@ header, footer {
 .navbar-collapse {
     //    font-size: 12px;
 }
-
+.fill-screen {
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+}
+.fixed-attachment {
+    background-attachment: fixed;
+}
+@media (max-width: 1024px) {
+    .fixed-attachment {
+        background-attachment: scroll;
+    }
+}
 @media (min-width: 720px) {
     /*navbar-nav changes to center navbar menu items*/
     .navbar-nav {
@@ -69,39 +87,10 @@ header, footer {
         display: inline-block;
         float:none;
     }
-    //keeps caption from popping up after animation
-    .carousel-caption {
-    top: 50%;
-    transform: translateY(0%);
-    bottom: initial;
-    }
-    /*not sure why this is here
-    .navbar {
-        padding-top: 5px; 
-        padding-right: 10px; 
-        padding-bottom: 5px; 
-        padding-left: 10px; 
-    }
-    .navbar-header {
-        padding-right: 20px;
-    }
-    .navbar-brand {
-        float: right;
-        height: 20px;
-        padding: 5px 5px;
-        line-height: 20px;
-    }
-    .navbar-collapse {
-        padding-top: 20px;
-        padding-left: 100px;
-        font-size: 15px;
-    }
-    */
 }
 @media (min-width: 992px) {
     /*navbar-nav changes to center navbar menu items*/
     .navbar-nav {
-        //    float: none;
         padding-top: 30px;
         margin:0 auto;
         display: block;
@@ -112,63 +101,26 @@ header, footer {
         display: inline-block;
         float:none;
     }
-    //keeps caption from popping up after animation
-    .carousel-caption {
-    top: 50%;
-    transform: translateY(0%);
-    bottom: initial;
-    }
-    /*not sure why this is here
-    .navbar {
-        font-size: 20px;
-        padding-top: 0px; 
-        padding-right: 0px; 
-        padding-bottom: 5px; 
-        padding-left: 0px; 
-    }
-    .navbar-nav > li {
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-    .navbar-header {
-        padding-right: 0px;
-    }
-    .navbar-brand {
-        float: right;
-        height: 20px;
-        padding: 5px 5px;
-        line-height: 20px;
-    }
-    .navbar-collapse {
-        padding-top: 5px;
-        padding-left: 10px;
-        font-size: 20px;
-    }
-    .dropdown-menu {
-        font-size: 15px;
-    }
-    */
 }
-
-.thumbnail {
+/*.thumbnail {
     display: inline-block;
     max-width: 100%;
     height: fit-content;
     padding: 4px;
-    //  line-height: 1.42857143;
     line-height: 1;
     background-color: #fff;
-    //  border: 1px solid #ddd;
     border: none;
-    //  border-radius: 4px;
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
-}
+    transition: all .2s ease-in-out; */
+    /*line-height: 1.42857143; */
+    /* border: 1px solid #ddd; */
+    /*  border-radius: 4px; */
+/*}*/
 /*.thumbnail .caption {
     padding: 9px;
     color: #333;
-}*/
+}
 .thumbnail {
     position: relative;
 }
@@ -178,4 +130,4 @@ header, footer {
     top: 45%;
     left: 0;
     width: 100%;
-}
+}*/
