@@ -1,3 +1,4 @@
+Upload test files and test on various devices
 Organize images
 Is color consulting a service??
 Test site while offline to figure out what is trying to be called from the internet 
