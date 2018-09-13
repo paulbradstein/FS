@@ -1,4 +1,3 @@
-// Empty JS for your own code to be here
 /*W3 CSS function:
  function navMinIcon() {
  var x = document.getElementById("nav-min-icon");
@@ -30,9 +29,9 @@
  */
 $(function () {
     /*used for full size background image 
-    $(window).on("load resize", function () {
-        $(".fill-screen").css("height", window.innerHeight);
-    }); */
+     $(window).on("load resize", function () {
+     $(".fill-screen").css("height", window.innerHeight);
+     }); */
 
     /*parallax scrolling with stellar.js. requires jquery 1.9.1
      $(window).stellar(); */
@@ -40,7 +39,7 @@ $(function () {
     /*initialize WOW for element animation */
     new WOW().init();
 });
-//initialize nanogallery. NOTE some HoverEffects will cause image to show over your top menu. seems to be the ones that scale size
+/*initialize nanogallery. NOTE some HoverEffects will cause image to show over your top menu. seems to be the ones that scale size */
 $(document).ready(function () {
     $("#nanoGallery3").nanoGallery({
         thumbnailHoverEffect: 'labelAppear,labelOpacity50',
@@ -57,4 +56,7 @@ $(document).ready(function () {
     }
     );
 
+});
+$(function () {
+    $("#includedContent").load("fs_navbar.html");
 });
