@@ -1,3 +1,5 @@
+image naming convention:
+    date | category | number | size 
 Organize images
 Face Painting?
 Is color consulting a service??
@@ -7,6 +9,7 @@ IN PLACE STYLING:
 Wow Animation to Carousel Text and Thumbnail Images
 Nano-Gallery
 Basic Navigation
+Amazon CDN Hosting
 
 ADDITIONAL BELLS / WHISTLES
 To get nano-gallery like hover effects on thumbnails, you will probably need to do W3schools.
@@ -14,7 +17,6 @@ To get nano-gallery like hover effects on thumbnails, you will probably need to 
 Try to get parallax scrolling w/ carousel. Would need to use background images for carousel. If using stellar.js, it seems to require jquery 1.9.x or 2.x
 To get navbar animation - need to add classie and cbpAnimatedHeader JS files, cbp class in css, cbp-af-header to navbar div. 
     It requires an earlier version of jquery (1.9.1 is working). Navbar is already collapsed so not sure I would use this.
-    get her photos organized w/ google.
 
 get her posting stuff to facebook all the time
 allow people to sign up for special deals

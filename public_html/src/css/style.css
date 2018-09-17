@@ -87,6 +87,10 @@ requires older version of jquery (1.9.1 works)
         display: inline-block;
         float:none;
     }
+/*moves carousel caption up for large screens so caption is not down off the screen */
+    .carousel-caption {
+        top: 40%;
+    }
 }
 @media (min-width: 992px) {
     /*navbar-nav changes to center navbar menu items*/
@@ -101,6 +105,10 @@ requires older version of jquery (1.9.1 works)
         display: inline-block;
         float:none;
     }
+/*moves carousel caption up for large screens so caption is not down off the screen */
+    .carousel-caption {
+        top: 40%;
+    }
 }
 /*.thumbnail {
     display: inline-block;
@@ -113,9 +121,9 @@ requires older version of jquery (1.9.1 works)
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out; */
-    /*line-height: 1.42857143; */
-    /* border: 1px solid #ddd; */
-    /*  border-radius: 4px; */
+/*line-height: 1.42857143; */
+/* border: 1px solid #ddd; */
+/*  border-radius: 4px; */
 /*}*/
 /*.thumbnail .caption {
     padding: 9px;
