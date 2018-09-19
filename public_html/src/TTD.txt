@@ -1,3 +1,4 @@
+re-save all photos in irfanview to reduce size
 image naming convention:
     date | category | number | size 
 Organize images

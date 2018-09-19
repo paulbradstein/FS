@@ -1,14 +1,10 @@
-/* 
-    Author     : Paul Stein
-*/
-
+/* Author     : Paul Stein */
 body {
     background-color: #ffffff;  
     font-family: sans-serif;
 }
 header, footer {
     background-color: #ffffff;
-    //    text-align: center;    
 }
 .fs-content-index{
     padding-top: 110px;
@@ -22,21 +18,20 @@ header, footer {
 .fs-thumbs {
     height: 195px;
 }
-/*carousel-caption changes below will center an image on the carousel
+/*carousel-caption changes below will center an image on the carousel, but doesn't work well w/ wow animation'
 .carousel-caption {
     top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     bottom: initial;
 }*/
-
 .navbar {
     border: none;
     background-color: #ffffff;
     /*transition lines are for animated header which I'm not using right now.
     -webkit-transition: all 0.5s;
     transition: all 0.5s; */
-    opacity: 0.9;
+    opacity: 0.96;
 }
 /*this gets the navbar header to same height as the logo image*/
 .navbar-header {
@@ -48,19 +43,38 @@ requires older version of jquery (1.9.1 works)
     padding: 0px;
     opacity: 0.9;
 }*/
-
 .navbar-brand {
     border: none;
     padding: 0px;
 }
-//Sets font size for Services Dropdown menu when <720px
+/* sets navbar menu text color to black and a background color to show hover */
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+    background-color: #ddd;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background-color: #ddd;
+    color: #000;
+}
 .dropdown-menu {
-    //    font-size: 12px;
+    color: #000;
 }
-//Sets font size for Main menu when <720px
-.navbar-collapse {
-    //    font-size: 12px;
+.navbar-default .navbar-toggle {
+    border-color: #000;
 }
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #000;
+    background-color: #ddd;
+}
+/* used with background image and parallax scrolling only
 .fill-screen {
     background-size: cover;
     background-position: center;
@@ -72,6 +86,11 @@ requires older version of jquery (1.9.1 works)
 @media (max-width: 1024px) {
     .fixed-attachment {
         background-attachment: scroll;
+    }
+} */
+@media (max-width: 479px){
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        color: #000;
     }
 }
 @media (min-width: 720px) {
@@ -87,7 +106,7 @@ requires older version of jquery (1.9.1 works)
         display: inline-block;
         float:none;
     }
-/*moves carousel caption up for large screens so caption is not down off the screen */
+    /*moves carousel caption up for large screens so caption is not down off the screen */
     .carousel-caption {
         top: 40%;
     }
@@ -105,7 +124,7 @@ requires older version of jquery (1.9.1 works)
         display: inline-block;
         float:none;
     }
-/*moves carousel caption up for large screens so caption is not down off the screen */
+    /*moves carousel caption up for large screens so caption is not down off the screen */
     .carousel-caption {
         top: 40%;
     }
