@@ -1,16 +1,137 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
+<html lang="en">
     <head>
-        <title>About the Faux Studio</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About The Faux Studio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="about the Faux Studio">
+        <meta name="author" content="Paul Stein">
+        <link href="css/bootstrap.min.xs.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="css/nanogallery.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
     </head>
     <body>
-        <div>About the Faux Studio Page</div>
+        <header>
+            <div id="includedContent"></div>
+        </header>
+        <!--Begin about content-->
+        <div class="container-fluid fs-content">
+            <div class="row text-content">
+                <h1>about the Faux Studio</h1>
+                <p>The Faux Studio provides a wide range of residential artistic services for the Philadelphia and Allentown regions. 
+                    We are passionate about adding creativity and beauty to your home and social or life events. Our services include 
+                    custom canvas paintings, murals and wall finishes, furniture finishing, floral and event design, interior design, face painting and more. 
+                    Our primary goal with every project is to exceed your expectations with creative, quality, timely, and affordable services. 
+                    We have been honored to serve clients across the southeastern Pennsylvania region for over 12 years, and would love to 
+                    serve you in any way we can.
+                </p>
+            </div>
+        </div><!--end about content-->
+        <!--Begin Thumbnails-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 wow slideInLeft">
+                    <div class="thumbnail text-center">
+                        <a href="fs18_canvas.html">
+                            <img alt="1" src="images_fl/b005_fl_venetian_plaster_room2_7022.jpg">
+                            <div class="caption">
+                                <h4>Canvas Paintings</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 wow slideInUp">
+                    <div class="thumbnail text-center">
+                        <a href="fs18_mural.html">
+                            <img alt="2" src="images_fl/b605_604.jpg">
+                            <div class="caption">
+                                <h4>Custom Murals</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- Add clearfix for only the required viewport -->
+                <div class="clearfix visible-sm"></div>
+                <div class="col-xs-12 col-sm-6 col-md-3 wow slideInUp">
+                    <div class="thumbnail text-center">
+                        <a href="fs18_floral.html">
+                            <img alt="3" src="images_fl/a801_fl_a4034.JPG">
+                            <div class="caption">
+                                <h4>Floral Design</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 wow slideInRight">
+                    <div class="thumbnail text-center">
+                        <a href="fs18_furniture.html">
+                            <img alt="1" src="images_fl/b112_fl_cabinet_antiquing1_312.jpg">
+                            <div class="caption">
+                                <h4>Furniture Finishes</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div><!--row-->
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 wow slideInLeft">
+                    <div class="thumbnail text-center">
+                        <a href="fs18_wall.html">
+                            <img alt="1" src="images_fl/a860_fl_venetian_plaster_room1_4735.jpg">
+                            <div class="caption">
+                                <h4>Wall Finishes</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 wow slideInUp">
+                    <div class="thumbnail text-center">
+                        <a href="fs18_event.html">
+                            <img alt="2" src="images_fl/IMG_4612.JPG">
+                            <div class="caption">
+                                <h4>Event Design</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- Add clearfix for only the required viewport -->
+                <div class="clearfix visible-sm"></div>
+                <div class="col-xs-12 col-sm-6 col-md-3 wow slideInUp">
+                    <div class="thumbnail text-center">
+                        <a href="fs18_interior.html">
+                            <img alt="3" src="images_fl/b011_fl_bridge_mural_695.jpg">
+                            <div class="caption">
+                                <h4>Interior Design</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 wow slideInRight">
+                    <div class="thumbnail text-center">
+                        <a href="fs18_staging.html">
+                            <img alt="1" src="images_fl/b106_fl_spring_house_floral2_413.jpg">
+                            <div class="caption">
+                                <h4>Home Staging</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div><!--row-->
+        </div><!--Thumbnail container-fluid)-->
+        <script src="js/jquery.3.3.1.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.xs.js"></script>
+        <!--Wow Animation-->
+        <script src="js/wow.min.js" type="text/javascript"></script>
+        <script src="js/jquery.nanogallery.min.js" type="text/javascript"></script>
+        <script src="js/scripts.js"></script>
+        <!--following 2 js files are for changes to navbar when scrolling. I'm not using it now. 
+        does not work w/ newer versions of jquery
+        <script src="js/classie.js" type="text/javascript"></script>
+        <script src="js/cbpAnimatedHeader.js" type="text/javascript"></script> -->
+        <!--following 2 js files are to give parallax scrolling, 
+        but it seems I need a carousel with background images to get it working.
+        <script src="js/jquery.easing.1.4.1.js" type="text/javascript"></script>
+        <script src="js/jquery.stellar.js" type="text/javascript"></script>-->
     </body>
 </html>

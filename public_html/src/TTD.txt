@@ -1,3 +1,4 @@
+add background image to about and contact pages and try parallax scrolling?
 re-save all photos in irfanview to reduce size
 image naming convention:
     date | category | number | size 

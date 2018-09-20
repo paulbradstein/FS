@@ -1,10 +1,17 @@
 /* Author     : Paul Stein */
 body {
     background-color: #ffffff;  
-    font-family: sans-serif;
+    font-family: 'Cabin', sans-serif;
 }
 header, footer {
     background-color: #ffffff;
+    font-family: 'Cabin', sans-serif;
+}
+p {
+    font-size: 16px;
+    text-align: left;
+    padding-right: 25px;
+    padding-left: 25px;
 }
 .fs-content-index{
     padding-top: 110px;
@@ -14,6 +21,7 @@ header, footer {
 }
 .text-content {
     text-align: center;
+    padding-bottom: 10px;
 }
 .fs-thumbs {
     height: 195px;
@@ -110,6 +118,12 @@ requires older version of jquery (1.9.1 works)
     .carousel-caption {
         top: 40%;
     }
+    p {
+        font-size: 18px;
+        text-align: left;
+        padding-right: 75px;
+        padding-left: 75px;
+    }
 }
 @media (min-width: 992px) {
     /*navbar-nav changes to center navbar menu items*/
@@ -127,6 +141,12 @@ requires older version of jquery (1.9.1 works)
     /*moves carousel caption up for large screens so caption is not down off the screen */
     .carousel-caption {
         top: 40%;
+    }
+    p {
+        font-size: 18px;
+        text-align: left;
+        padding-right: 150px;
+        padding-left: 150px;
     }
 }
 /*.thumbnail {
