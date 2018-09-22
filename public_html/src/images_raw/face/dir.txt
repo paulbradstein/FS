@@ -1,0 +1,15 @@
+dir.txt
+IMG_0909.jpg
+IMG_0909.png
+IMG_1021.MOV
+IMG_1166.jpg
+IMG_1170.jpg
+IMG_1175.jpg
+IMG_1176.jpg
+IMG_1180.jpg
+IMG_1181.jpg
+IMG_1552_1024.jpg
+IMG_1553.jpg
+IMG_1554.jpg
+IMG_1564_1024.jpg
+IMG_1565.jpg

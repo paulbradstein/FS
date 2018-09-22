@@ -1,17 +1,22 @@
-add background image to about and contact pages and try parallax scrolling?
+Version 1:
+Add text to services pages
+Update carousel with photos and captions she wants
+476 to 544 px wide is no-mans land with current menu. do custom bootstrap navbar-collapse width?
+strip all information off photos
 re-save all photos in irfanview to reduce size
+Test site while offline to figure out what is trying to be called from the internet 
+
+Version 2:
+add background image to about and contact pages and try parallax scrolling?
 image naming convention:
     date | category | number | size 
-Organize images
-Face Painting?
 Is color consulting a service??
-Test site while offline to figure out what is trying to be called from the internet 
+Amazon CDN Hosting
 
 IN PLACE STYLING:
 Wow Animation to Carousel Text and Thumbnail Images
 Nano-Gallery
 Basic Navigation
-Amazon CDN Hosting
 
 ADDITIONAL BELLS / WHISTLES
 To get nano-gallery like hover effects on thumbnails, you will probably need to do W3schools.
