@@ -77,7 +77,6 @@ h4 {
     color: #000;
     background-color: #ddd;
 }
-/* set navbar text color to black */
 @media (max-width: 361px) {
     h1 {
         font-size: 24px;
@@ -86,6 +85,7 @@ h4 {
         font-size: 16px;
     } 
 }
+/* set navbar text color to black */
 @media (max-width: 479px){
     .navbar-default .navbar-nav .open .dropdown-menu>li>a {
         color: #000;
@@ -122,12 +122,16 @@ h4 {
         padding-left: 150px;
     }
 }
+/*changes to show full carousel image on wide screens. reduces width of carousel images*/
 @media (min-width: 1080px) {
-    /*changes to show full carousel image on wide screens. reduces width of carousel images*/
     .carousel {
         width: 1024px;
         float:none;
         margin:0 auto;
         display: block;
     }
+/*@media (min-height: 566px){
+    .carousel{
+        height: 366px;
+    }*/
 }

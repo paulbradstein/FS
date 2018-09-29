@@ -51,5 +51,5 @@ $(document).ready(function () {
 });
 /* jquery function to include html file */
 $(function () {
-    $("#includedContent").load("fs_navbar.html");
+    $("#includedContent").load("fs18_navbar.html");
 });
