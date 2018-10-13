@@ -1,13 +1,20 @@
-Version 1:
-Add text to services pages
-Search for various furniture types on google photos (dresser eg) 
+Version 0:
+Update image folder structure and thumbnails
 Download and install google font.
-476 to 544 px wide is no-mans land with current menu. do custom bootstrap navbar-collapse width?
-strip all information off photos
 re-save all photos in irfanview to reduce size
 Test site while offline to figure out what is trying to be called from the internet 
+Reverse sort photos
+
+Version 1:
+Figure out how to add ALT tags to nano gallery
+Search for various furniture types on google photos (dresser eg) 
+476 to 544 px wide is no-mans land with current menu. do custom bootstrap navbar-collapse width?
+strip all information off photos
 
 Version 2:
+Add open gallery links to home page
+mess with gallery layout to nano gallery. You may need nanogallery2.
+add QR code to business cards.
 add background image to about and contact pages and try parallax scrolling?
 image naming convention:
     date | category | number | size 
