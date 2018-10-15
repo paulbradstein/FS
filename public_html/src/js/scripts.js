@@ -10,7 +10,7 @@ $(function () {
     /*initialize WOW for element animation */
     new WOW().init();
 });
-/*initialize nanogallery. NOTE some HoverEffects will cause image to show over your top menu. seems to be the ones that scale size */
+/*initialize nanogallery. NOTE some HoverEffects will cause image to show over your top menu. seems to be the ones that scale size 
 $(document).ready(function () {
     var myColorScheme = {
         thumbnail: {
@@ -48,8 +48,15 @@ $(document).ready(function () {
         }
     }
     );
-});
+});*/
 /* jquery function to include html file */
 $(function () {
     $("#includedContent").load("fs18_navbar.html");
 });
+/* UniteGallery*/
+jQuery(document).ready(function () {
+    jQuery("#gallery").unitegallery({
+        gallery_theme: "tiles"
+    });
+});
+				
