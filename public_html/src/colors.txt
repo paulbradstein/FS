@@ -1,9 +1,0 @@
-column
-15482 body background was fff now e7e0eb
-15585 body font color was 337ab7 now 523963
-47626 btn-primary background color was 337ab7 now 523963
-also updated btn-primary border color was 337ab7 now 523963
-56812 dropdown-menu font size from 14 to 18
-56873 dropdown-menu background color from fff to e7e0eb
-47715 btn-primary focus background color was 286090 now ?
-47791 btn-primary hover background color was 286090 now ?
